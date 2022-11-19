@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   RESET STYLES
+*/
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Homepage */
+.main {
+  background-color: antiquewhite;
+}
+
+.logo {
+  width: 65px;
+}  
+
+.jumbotron {
+  background-image: url("./images/jumbotron-new.png");
+  background-size: cover;
+  height: 30rem;
+}
+.jumbotronHeading {
+  font-size: 10rem;
+  font-weight: 600;
+  color: darkblue;
+  font-family: 'Dancing Script', cursive;
+}
+
+.lead {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 4rem;
+  color: crimson;
+}
+
+.jumbotron-text {
+  padding-left: 2rem;
+  padding-top: 3rem;
+}
+
+.jumbotron-btns {
+  text-align: center;
+}
+
+.btn-lg {
+  margin-left:2rem;
+}
+
+.navbar-collapse {
+  padding-left: 0.5rem;
+}
+
+.catchyHeading {
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  padding-top:10rem;
+}
+
+.card {
+  margin: 1rem;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  border: 3px solid black;
+}
+
+@media only screen and (max-width: 1440px) {
+}
+
+/* medium display only */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .jumbotron-img {
+    width: 100%;
+  }
+  .jumbotron {
+    height: 20rem;
+  }
+  .jumbotronHeading {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .jumbotronHeading {
+    font-size: 3rem;
+  }
+  .catchyHeading {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .jumbotron-img {
+    width: 100%;
+  }
+  .jumbotronHeading {
+    font-size: 4rem;
+  }
+  .jumbotron {
+    height: 25rem;
+  }
+}
+
+/* small display only */
+
+@media (max-width: 480px) {
+  .jumbotron {
+    height: 30rem;
+  }
+  .jumbotronHeading {
+    font-size: 4rem;
+  }
+
+  .lead {
+    font-size: 3rem;
+  }
+
+  .catchyHeading {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+/* About Us Page */
+
+.img-right, .img-left {
+  width: 40rem;
+  padding: 4rem;
+}
+
+.aboutUsHeading {
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.aboutUsText {
+  padding: 4rem;
+}
+
+/* small display only */
+@media (max-width: 480px) {
+  .aboutUsHeading {
+    font-size: 3rem;
+  }
+  .img-right, .img-left {
+    width: 19rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-right, .img-left {
+    width: 25rem;
+    padding: 1rem;
+  }
+}
