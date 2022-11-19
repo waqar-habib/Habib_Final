@@ -134,20 +134,79 @@
                     </div>
                   </div>
                   <div class="row mt-4">
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                       <div class="form-group">
-                        <label for="form_email">Customer Email Address *</label>
+                        <label for="email">Customer Email Address *</label>
                         <input
-                          id="form_email"
+                          id="email"
                           type="email"
                           name="email"
                           class="form-control"
-                          placeholder="Please enter your email *"
+                          placeholder="Please enter your email address*"
                           required="required"
-                          data-error="Valid email is required."
+                          data-error="Please enter a valid email address"
                         />
                       </div>
+                    </div> 
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="orderNum">Order Number</label>
+                        <input
+                          id="orderNum"
+                          type="orderNum"
+                          name="orderNum"
+                          class="form-control"
+                          placeholder="AB820NACC"
+                        />
+                      </div>
+                    </div>                   
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="query">Please select your query *</label>
+                        <select
+                          id="query"
+                          name="query"
+                          class="form-control"
+                          required="required"
+                          data-error="Selection of query is required"
+                        >
+                          <option value="" selected disabled>
+                            Select Problem
+                          </option>
+                          <option>My receipt is lost</option>
+                          <option>DoorDash ate my food</option>
+                          <option>Need to host Event</option>
+                          <option>General Inquiry</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="query">Query *</label>
+                        <textarea
+                          id="query"
+                          name="query"
+                          class="form-control"
+                          placeholder="Tell us something"
+                          rows="6"
+                          required="required"
+                          data-error="Please, leave us a message."
+                        ></textarea>
+                      </div>
                     </div>                    
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-md-12">
+                      <input
+                        type="submit"
+                        class="btn btn-success"
+                        value="Send"
+                      />
+                    </div>
                   </div>
                 </form>
               </div>
