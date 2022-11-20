@@ -16,9 +16,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Peralta&family=Roboto&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <script>
 	          $(document).ready(function(){
-		        $("#myModal").modal('show');
+		        $("#whatsNew").modal('show');
 	          });
         </script>
       </head>
@@ -242,6 +244,34 @@
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
+  <!--Modal-->
+  <div id="whatsNew" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">What's New?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>1. Contact Page
+                  <br/>
+                  <br />
+                  2. "Get in Touch with us" form on Contact Page
+                  <br/>
+                  <br />
+                  3. Food Blog Page
+                  <br/>
+                  <br />
+                  4. "Click Me!" Modal on Food Blog Page
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+  <!--auto modal end-->
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
