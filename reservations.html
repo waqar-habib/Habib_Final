@@ -14,7 +14,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Snazzy's Food Truck</title>
+  <title>Snazzy's | About Us</title>
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
@@ -24,13 +24,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Peralta&family=Roboto&family=Shadows+Into+Light&display=swap"
     rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $("#whatsNew").modal('show');
-    });
-  </script>
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -60,16 +53,16 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./aboutUs.html">About Us</a>
+              <a class="nav-link" href="./aboutUs.html" disabled>About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./reservations.html" disabled>Reservations</a>
+              <a class="nav-link" href="#" disabled>Reservations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contactUs.html">Contact</a>
+              <a class="nav-link" href="./contactUs.html" disabled>Contact</a>
             </li>
             <li class="nav-item-right">
-              <a class="nav-link" href="./foodBlog.html">Food Blog</a>
+              <a class="nav-link" href="./foodBlog.html" disabled>Food Blog</a>
             </li>
           </ul>
         </div>
@@ -91,80 +84,30 @@
         </div>
       </div>
       <div class="container">
-        <div class="row ">
-          <div class="col-md-4 catchyHeading">
-            We Know You Want It
+        <div class="row gx-1 ">
+          <div class="col-md-12 aboutUsHeading">
+            We Take Reservations!!!
+          </div>
+        </div>
+        <div class="row gx-1 ">
+
+          <div class="col-md-6 reservationsText">
+            For your next event whether it is a wedding, a conference, a birthday party, please contact us using the form on our website!
           </div>
 
-          <div class="col-md-8">
-            <div class="row gx-1 ">
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card">
-                  <img class="card-img-top" src="./images/butterChicken.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Butter Chicken</h5>
-                    <p class="card-text">A classic Snazzy's Dish. Chicken & Cream Sauce</p>
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                  </div>
-                </div>
-              </div>
+          <div class="col-md-6">
+            <img src="./images/event1.jpeg" class="img-right" href="#" alt="...">
+          </div>
 
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card">
-                  <img class="card-img-top" src="./images/crunch-loaded-fries-cover.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Loaded Fries</h5>
-                    <p class="card-text">Grilled Beef, Chicken & Special Sauce on Fries</p>
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                  </div>
-                </div>
-              </div>
+        </div>
+        <div class="row gx-1 ">
 
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card">
-                  <img class="card-img-top" src="./images/pizza-and-foodles-cover.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Noodles Foodles</h5>
-                    <p class="card-text">A Snazzy's Spin on Noodles</p>
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row gx-1 ">
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card">
-                  <img class="card-img-top" src="./images/breakfast-cover.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Cheese Omelette</h5>
-                    <p class="card-text">Tomatoes, onions and cheese wrapped in eggs</p>
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                  </div>
-                </div>
-              </div>
+          <div class="col-md-6">
+            <img src="./images/conference.jpg" class="img-left" href="#" alt="...">
+          </div>
 
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card">
-                  <img class="card-img-top" src="./images/fill-bunz-cover.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Tikka Burger</h5>
-                    <p class="card-text">Mouth-watering chicken fillet on brioche</p>
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card">
-                  <img class="card-img-top" src="./images/zafran-milk-cake-cover.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Zafran Milk Cake</h5>
-                    <p class="card-text">Snazzy's Favorite Milk Dessert</p>
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-6 reservationsText">
+            We Would love to host you! Since Snazzy's is a food truck, we will drive to your venue of choice and cater any type of meal you prefer! We cater to all sorts of dietary restrictions including vegan, vegetarian, pescatarian, Halal, Kosher, etc.
           </div>
 
         </div>
@@ -255,46 +198,6 @@
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
-  <!--Modal-->
-  <div id="whatsNew" class="modal fade" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">What's New?</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-        <div class="modal-body">
-          <p>1. Contact Page
-            <br />
-            <br />
-            2. "Get in Touch with us" form on Contact Page
-            <br />
-            <br />
-            3. Validation on contact form
-            <br />
-            <br />
-            4. Food Blog Page
-            <br />
-            <br />
-            5. Reservations Page
-            <br />
-            <br />
-            6. "Click Me!" Modal on Food Blog Page
-            <br />
-            <br />
-            7. Google Analytics
-            <br />
-            <br />
-            8. Included a sitemap.xml in the code
-          </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--auto modal end-->
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

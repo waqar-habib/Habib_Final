@@ -188,3 +188,12 @@ table {
 .contactHeader {
   font-family: 'Dancing Script', cursive;
 }
+
+/* Reservations */
+
+.reservationsText {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3rem;
+  color:blueviolet;
+  margin-top: 5rem;
+}
